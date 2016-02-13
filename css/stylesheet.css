@@ -623,15 +623,16 @@ nav .linkedin {
 }
 }
 
+#sectionTwo {
+    padding-bottom: 120px;
+}
+
 #sectionTwo .navigationTitle {
     float:right;
     position:relative;
     right:150px;
     bottom:100px;
-}
-
-#sectionTwo .sectionTwoLeft {
-    height:900px;
+    bottom:100px;
 }
 
 #sectionTwo .sectionTwoImg {
@@ -744,8 +745,7 @@ nav .linkedin {
 }
 
 #sectionThree {
-    height:1000px;
-    overflow:hidden;
+    padding-bottom: 120px;
     padding-left:15px;
 }
 
@@ -861,11 +861,10 @@ nav .linkedin {
 }
 
 #sectionFour {
-    height:900px;
     width:900px;
-    padding-top:150px;
     margin-left:auto;
     margin-right:auto;
+    padding-bottom: 120px;
 }
 
 #sectionFour .navigationTitle {
@@ -1039,9 +1038,8 @@ nav .linkedin {
 
 
 #sectionFive {
-    margin-top:100px;
     width:100%;
-    overflow:hidden;
+    padding-bottom: 120px;
 }
 
 #sectionFive .navigationTitle {
@@ -1076,12 +1074,12 @@ nav .linkedin {
 }
 
 .sectionFiveOptions {
-        width:1000px;
-        margin-left:auto;
-        margin-right:auto;
-        position:relative;
-        bottom:100px;
-        transition-duration:1s;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    bottom:100px;
+    transition-duration:1s;
 }
 
 #sectionFive .sectionFiveBubble{
@@ -1287,7 +1285,7 @@ nav .linkedin {
 }
 
 #sectionSix {
-    margin-top:300px;
+    margin-top:200px;
     height:950px;
     overflow: hidden;
 }
