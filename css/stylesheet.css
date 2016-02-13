@@ -1011,7 +1011,6 @@ nav .linkedin {
     transition-duration:1s;
     margin-bottom:1px;
     transition-delay:0.2s;
-
 }
 
 #sectionFour .row div p {
@@ -1019,8 +1018,8 @@ nav .linkedin {
     opacity:0;
 }
 #sectionFour #sectionFourBubble1 p {
-       bottom:110px;
-       padding-left:5px;
+       bottom:150px;
+       padding-left:0;
 }
 
 #sectionFour #sectionFourBubble2 p , #sectionFour #sectionFourBubble3 p  {
@@ -1427,7 +1426,6 @@ nav .linkedin {
        height:200px;
        z-index:2;
     }
-
 }
 
 
