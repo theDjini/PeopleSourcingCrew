@@ -1695,25 +1695,26 @@ nav li .navFacebook {
     border-radius:50%;
     background-color: rgba(227,236,243,1);
     float:right;
-    padding-top:160px;
-    padding-left:10px;
+    padding-top:80px;
+    padding-left:25px;
 }
 
 #sectionSeven .sectionSevenCrew .crewFace {
-    width:75px;
-    height:75px;
+    width:70px;
+    height:70px;
     float:left;
     border-radius:50%;
     background-size:cover;
     cursor:pointer;
     text-align:center;
+    margin-bottom:15px;
 }
 
 #sectionSeven .sectionSevenCrew .crewFace h1 {
     opacity:0;
     transition-duration:1s;
     position:relative;
-    top:80px;
+    top:67px;
 }
 #sectionSeven .sectionSevenCrew .crewFace:hover h1 {
     opacity:1;
@@ -1735,6 +1736,39 @@ nav li .navFacebook {
 #sectionSeven .sectionSevenCrew .crewFaceFive {
     background-image: url("../img/faces/face5Small.jpg");
 }
+
+#sectionSeven .sectionSevenCrew .crewFaceSix {
+    background-image: url("../img/faces/face6Small.jpg");
+}
+#sectionSeven .sectionSevenCrew .crewFaceSeven {
+    background-image: url("../img/faces/face7Small.jpg");
+}
+#sectionSeven .sectionSevenCrew .crewFaceEight {
+    background-image: url("../img/faces/face8Small.jpg");
+}
+#sectionSeven .sectionSevenCrew .crewFaceNine {
+    background-image: url("../img/faces/face9Small.jpg");
+}
+#sectionSeven .sectionSevenCrew .crewFaceTen {
+    background-image: url("../img/faces/face10Small.jpg");
+}
+
+#sectionSeven .sectionSevenCrew .crewFaceEleven {
+    background-image: url("../img/faces/face11Small.jpg");
+}
+#sectionSeven .sectionSevenCrew .crewFaceTwelve {
+    background-image: url("../img/faces/face12Small.jpg");
+}
+#sectionSeven .sectionSevenCrew .crewFaceThirteen {
+    background-image: url("../img/faces/face13Small.jpg");
+}
+#sectionSeven .sectionSevenCrew .crewFaceFourteen {
+    background-image: url("../img/faces/face14Small.jpg");
+}
+#sectionSeven .sectionSevenCrew .crewFaceFifteen {
+    background-image: url("../img/faces/face15Small.jpg");
+}
+
 #sectionSeven .crewInfo {
     width:400px;
     height:400px;
@@ -1761,6 +1795,38 @@ nav li .navFacebook {
 }
 #crewFaceFiveInfo .crewFaceOneInfoPortrait {
     background-image: url("../img/faces/face5Small.jpg");
+}
+
+#crewFaceSixInfo .crewFaceOneInfoPortrait {
+    background-image: url("../img/faces/face6Small.jpg");
+}
+#crewFaceSevenInfo .crewFaceOneInfoPortrait {
+    background-image: url("../img/faces/face7Small.jpg");
+}
+#crewFaceEightInfo .crewFaceOneInfoPortrait {
+    background-image: url("../img/faces/face8Small.jpg");
+}
+#crewFaceNineInfo .crewFaceOneInfoPortrait {
+    background-image: url("../img/faces/face9Small.jpg");
+}
+#crewFaceTenInfo .crewFaceOneInfoPortrait {
+    background-image: url("../img/faces/face10Small.jpg");
+}
+
+#crewFaceElevenInfo .crewFaceOneInfoPortrait {
+    background-image: url("../img/faces/face11Small.jpg");
+}
+#crewFaceTwelveInfo .crewFaceOneInfoPortrait {
+    background-image: url("../img/faces/face12Small.jpg");
+}
+#crewFaceThirteenInfo .crewFaceOneInfoPortrait {
+    background-image: url("../img/faces/face13Small.jpg");
+}
+#crewFaceFourteenInfo .crewFaceOneInfoPortrait {
+    background-image: url("../img/faces/face14Small.jpg");
+}
+#crewFaceFifteenInfo .crewFaceOneInfoPortrait {
+    background-image: url("../img/faces/face15Small.jpg");
 }
 
 #sectionSeven .crewInfo h4{
@@ -1802,13 +1868,17 @@ nav li .navFacebook {
     padding-top:12px;
 }
 
+#sectionSeven .crewInfo p {
+    font-size:0.8em;
+}
+
 #sectionSeven .infoContact .mailP{
     padding-top:10px;
 }
 
 #sectionSeven .infoContact .infoContactMail, #sectionSeven .infoContact .mailP {
     position:relative;
-    right:55px;
+    right:30px;
     top:10px;
 }
 
