@@ -81,6 +81,10 @@ q:before, q:after {
     content: none;
 }
 
+.absolute {
+    position: absolute;
+}
+
 /*remember to define visible focus styles! */
 :focus {
     outline: ????;
@@ -1033,6 +1037,7 @@ nav .linkedin {
 #sectionFour h2 {
     text-align:center;
     margin-bottom:40px;
+    margin-left: 15px;
 }
 
 

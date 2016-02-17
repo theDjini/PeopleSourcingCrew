@@ -83,8 +83,13 @@ $(function() {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
             if (target.length) {
+                var extra = 90;
+                if(!target.hasClass('s'))
+                    extra = extra + 250;
+
+                console.log(extra);
                 $('html, body').animate({
-                    scrollTop: target.offset().top - 80
+                    scrollTop: target.offset().top - extra
                 }, 1000);
                 return false;
             }
