@@ -66,25 +66,29 @@ ___              `       '              ___
         <!-- icon -->
         <link rel="shortcut icon" href="img/PeopleSourcingCrewIcon.png">
 
+        <!-- Javascript before loading page
+        ================================================== -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="js/nav.js"></script>
+
     </head>
     <body>
     <div class="wrapper">
-            <section id="navigation" class="navigation">
-                    <nav>
-                        <div id="navLogo" class="navLogo"> </div>
-                            <a href="#sectionOne" class="navigation active"> HOME </a>
-                            <a href="#sectionTwo" class="navigation"> ABOUT </a>
-                            <a href="#sectionThree" class="navigation"> HOW WE DO IT </a>
-                            <a href="#sectionFour" class="navigation"> RECRUITMENT </a>
-                            <a href="#sectionFive" class="navigatione"> CONSULTANCY & TRAINING </a>
-                            <a href="#sectionSix" class="navigation"> WHO WE WORK FOR </a>
-                            <a href="#sectionSeven" class="navigation"> LET'S TALK </a>
-                            <a class="facebook socialmediaButton" href="#"></a>
-                            <a class="twitter socialmediaButton" href="#"></a>
-                            <a class="linkedin socialmediaButton" href="#"></a>
-
-
-                    </nav>
+             <section id="navigation" class="navigation">
+                    <nav class="clearfix">
+        <ul class="clearfix">
+            <div class="navLogo"></div>
+            <li><a class="navsectionOne" href="#sectionOne">Home</a></li>
+            <li><a class="navsectionOne" href="#sectionTwo">About</a></li>
+            <li><a href="#sectionThree">How we do it</a></li>
+            <li><a href="#sectionFour">Recruitment</a></li>
+            <li><a class="navsectionFive" href="#sectionFive">Consultancy & Training</a></li>
+            <li><a class="navsectionSix" href="#sectionSix">Who we work for</a></li>
+            <li><a href="#sectionSeven">Let's talk</a></li>
+            <li><a class="socButton navLinkedin" href="#"></a><a class="socButton navTwitter" href="#"></a><a class="socButton navFacebook" href="#"></a></li>
+        </ul>
+        <a href="#" id="pull"><div class="navLogoPull"></div> </a>
+    </nav>
             </section>
 
             </div>
