@@ -68,7 +68,13 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+    overflow-x: hidden;
 }
+
+body .row {
+    margin: 0;
+}
+
 ol, ul {
     list-style: none;
 }
@@ -917,7 +923,9 @@ nav li .navFacebook {
     }
 
     #sectionThree .sectionThreeBubble {
-        left:300px;
+        position: absolute;
+        left: auto;
+        right: 30px;
     }
 
 }
